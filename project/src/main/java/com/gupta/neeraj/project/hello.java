@@ -4,11 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProjectApplication {
+public class Hello {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ProjectApplication.class, args);
-		System.out.println(Hello.m1());
+	public void m1() {
+		System.out.println("main method is calling : ");
 	}
-
 }
